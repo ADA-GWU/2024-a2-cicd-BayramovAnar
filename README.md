@@ -1,1 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/jwssRZI4)
+## Assignment 2. Automation of the service delivery 
+
+Part 1 - Demonstration of web interface testing of any application </br>
+Testing framework - Puppeteer </br>
+
+How to Install: 
+1. install Puppeteer and Jest. Run these commands in your terminal
+```npm install --save-dev puppeteer```
+```npm install --save-dev jest```
+2. All testing cases are located in the test.js file
+3. To run tests, proceed to test.js file and run this command in your terminal ```npm test``` 
