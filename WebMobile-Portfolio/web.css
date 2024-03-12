@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    margin: 0 0 3rem 0; 
+    background-color: #23252C;
+}
+
+
+.main_container{
+    width: 30%;
+    margin: 53px auto;
+    min-width: 350px;
+    
+}
+
+.card-outline{
+    width: 90%;
+    border: 1px solid;
+    margin: 35px auto;
+    border-radius: 1rem;
+    border-color: #ababab;
+    background-color: #000;
+    box-sizing: border-box;
+    height: 653px;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.bio-description{
+    text-align: center;
+}
+
+.bio-description img{
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 0;
+    object-fit: cover;
+}
+
+ .img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+} 
+ 
+h1{
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 0px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 13px;
+    color: #F3BF99;
+    line-height: 15.5px;
+    margin-top: 5px;
+    margin-bottom: 10px;  
+    padding: 0px 0px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 11px;
+    color: #F5F5F5;
+    line-height: 15px;
+}
+
+.bio-description p{
+    padding: 0px 0px 15px 0px;
+}
+
+.buttons-social{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around; 
+}
+
+.email, .linkedin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 35px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0,0,0, 0.05);
+}
+
+.buttons-social a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.email{
+    background-color: white;
+    border: 1px solid #D1D5DB;
+    color: #374151;
+}
+
+.linkedin{
+    background-color: #5093E2;
+    border: 1px solid #3787e2;
+    color: #FFFFFF;
+}
+
+.email:hover,
+.linkedin:hover{
+    background-color: #575758;
+    border: 1px solid #e7e8ea;
+    color: #f7f8fa;
+}
+
+.about{
+    padding: 13px 30px;
+}
+
+.about h2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5F5F5; 
+    padding: 10px 0px;
+}
+
+.about p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    color: #dcdcdc;
+}
+
+ 
+
+
+footer{
+    border: .1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 51px;
+    background-color: #161619;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.link-icon{
+    font-size: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.link-icon>.uil{
+    width: 25px;
+    height: 25px;
+    background-color: #918E9B;
+    padding: 0px 0px;
+    border-radius: 3px;
+}
+
+
+.link-icon>.uil:hover{
+    background-color: #C7C6C9;
+}
+
+@media screen and (min-width: 1476px){
+    footer{
+        height: 64px;
+    }
+    .link-icon{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    footer{
+        height: 80px;
+    }
+}

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
+
+    <title>Anar Bayramov | Portfolio</title>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Anar</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="./web.html" target="_blank" class="nav__link">
+                <i class="uil uil-keyboard nav__icon"></i> DigitalCard
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="./Weather/index.html" target="_blank" class="nav__link">
+                <i class="uil uil-keyboard nav__icon"></i> WeatherApp
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="https://www.youtube.com/watch?v=IDkXlTB-Ceo"
+                target="_blank"
+                class="nav__link"
+              >
+                <i class="uil uil-keyboard nav__icon"></i> YouTube Video Project
+              </a>
+            </li>
+          </ul>
+
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!------------------------------------ HOME SECTION BEGIN ---------------------------------------------------->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/anarbayramov1/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a
+                href="mailto:abayramov12682@ada.edu.az"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-envelope-alt"></i>
+              </a>
+              <a
+                href="https://github.com/BayramovAnar"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+
+                  <image
+                    class="home__blob-img"
+                    x="-79"
+                    y="-40"
+                    xlink:href="img/perfil.png"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Anar</h1>
+              <h3 class="home__subtitle">Software Engineer (Backend)</h3>
+              <p class="home__description">
+                Software Engineer specializing in server side programming.
+                Technology Stack: Java, Spring Boot, Git, PostgreSQL
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contact Me &nbsp <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------- HOME SECTION END ------------------------------------------>
+
+      <!--------------------------------------- ABOUT SECTION BEGIN ------------------------------------------>
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+        <div class="about__container container grid">
+          <img src="img/about.jpg" alt="" class="about__img" />
+          <div class="about__data">
+            <p class="about__description">
+              Highly skilled and reliable java developer looking to work as a
+              junior java developer at a leading software company. My range of
+              experience includes developing websites, apps, and complex
+              programs while pursuing education at university A. I am skilled in
+              PL/SQL, MySQL, Oracle, Tomcat Apache, ASP, JavaScript, CSS, HTML,
+              and more.
+            </p>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name"
+                  >Years <br />
+                  experience</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title">5+</span>
+                <span class="about__info-name"
+                  >Completed <br />
+                  projects</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title">02+</span>
+                <span class="about__info-name"
+                  >Companies <br />
+                  interned</span
+                >
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a
+                download=""
+                href="./pdf/CV - Anar Bayramov.pdf"
+                class="button button--flex"
+                >Download CV &nbsp
+                <i class="uil uil-download-alt button__icon"> </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------- ABOUT SECTION END  ------------------------------------------>
+
+      <!--------------------------------------- SKILLS SECTION BEGIN ------------------------------------------>
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+        <div class="skills__container container grid">
+          <div>
+            <!---- Skill #1 ---->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-server-network skills__icon"></i>
+                <div>
+                  <h1 class="skills__titles">Backend Engineer</h1>
+                  <span class="skills__subtitle"
+                    >More than a year of experience</span
+                  >
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Java Core (SE)</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__java"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Spring Boot</h3>
+                    <span class="skills__number">74%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__spring"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">PostgreSQL, MySQL</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__sql"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Git & Github</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__git"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!---- Skill #2 ---->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h1 class="skills__titles">iOS Engineer</h1>
+
+                  <span class="skills__subtitle"
+                    >More than a year of experience</span
+                  >
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Swift</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__swift"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">UIKit</h3>
+                    <span class="skills__number">74%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__uikit"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SwiftUI</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__swiftui"></span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Alamofire</h3>
+                    <span class="skills__number">70%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__alamofire"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------- SKILLS SECTION END  ------------------------------------------>
+
+      <!--------------------------------------- QUALIFICATIONS SECTION BEGIN  ------------------------------------------>
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i> &nbsp
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              &nbsp Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--  QUALIFICATION CONTENT 1 EDUCATION-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!-- QUALIFICATION 1 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Information Technology</h3>
+                  <span class="qualification__subtitle"> ADA University </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020 - 2024 <br />
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!-- space -->
+
+              <!-- QUALIFICATION 2 -->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">iOS Development Bootcamp</h3>
+                  <span class="qualification__subtitle"
+                    >Hackingwithswift.com</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 Feb-May <br />
+                  </div>
+                </div>
+              </div>
+
+              <!-- space -->
+              <!-- QUALIFICATION 3 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Java Web Development Course
+                  </h3>
+                  <span class="qualification__subtitle"> Udemy </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 May-Oct <br />
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div>
+
+            <!--  QUALIFICATION CONTENT 2 WORK-->
+            <div class="qualification__content" data-content id="work">
+              <!-- QUALIFICATION 1 -->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Software Engineer Intern</h3>
+                  <span class="qualification__subtitle"
+                    >International Bank of Azerbaijan</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 Jun-Jul <br />
+                  </div>
+                </div>
+              </div>
+
+              <!-- space -->
+
+              <!-- QUALIFICATION 2 -->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">iOS Engineer</h3>
+                  <span class="qualification__subtitle">Upwork.com</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022 Feb-Sep <br />
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!-- space -->
+              <!-- QUALIFICATION 3 -->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Interpreter</h3>
+                  <span class="qualification__subtitle">
+                    ENGINEERING DOBERSEK GmbH
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 Sep-Nov <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------- QUALIFICATIONS SECTION END  ------------------------------------------>
+
+      <!--------------------------------------- SERVICES SECTION BEGIN  ------------------------------------------>
+      <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I offer : </span>
+        <div class="services__container container grid">
+          <!-- Service 1 -->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-apple services__icon"></i>
+              <h3 class="services__title">
+                iOS <br />
+                Engineer
+              </h3>
+            </div>
+            <br />
+            <span
+              class="button button--flex button--small button--link services__button"
+              >View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  iOS <br />
+                  Engineer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>&nbspiOS Engineer with a dozens of finished projects.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>&nbspAbility to work both on-site and remote.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>&nbspWorking in both UIKit and SwiftUI.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>&nbspExperience in team-work, as well as team-lead.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-arrow services__icon"></i>
+              <h3 class="services__title">
+                Backend <br />
+                Engineer
+              </h3>
+            </div>
+            <br />
+            <span
+              class="button button--flex button--small button--link services__button"
+              >View More
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Backend <br />
+                  Engineer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>
+                      &nbspBackend Engineer with a dozens of finished projects.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>&nbspAbility to work both on-site and remote.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>&nbspWorking in both Spring Boot and Spring Security.</p>
+                  </li>
+
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>&nbspExperience in team-work, as well as team-lead.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------------------------- SERVICES SECTION END  ------------------------------------------>
+
+      <!--------------------------------------- PORTFOLIO SECTION BEGIN  ------------------------------------------>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Portfolio 1 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/porfolio1.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">iOS Netflix Clone</h3>
+                <p class="portfolio__description">
+                  Netflix Clone made for iOS devices. The application is
+                  compatible with every iPhone, starting from iPhone 5 and is
+                  compatible with every iOS version, starting iOS 9.0.
+                </p>
+                <a
+                  href="https://github.com/BayramovAnar/iOS-Netflix-Clone"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio 2 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/portfolio2.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Photographer's Website | Portfolio
+                </h3>
+                <p class="portfolio__description">
+                  Responsive web-page, designed to demonstrate the works of the
+                  photographer. Contains different pages, including "Work" page
+                  with listed arts of the photographer.
+                </p>
+                <a
+                  href="https://github.com/BayramovAnar/front-end-mircosoft-clone"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Portfolio 3 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="./img/portfolio3.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">To-Do List</h3>
+                <p class="portfolio__description">
+                  Simple To-Do list webpage. Technology stack: HTML, SASS,
+                  Vanilla Javascript. The functionality: adding tasks, deleting
+                  tasks, choosing the status of completeness of the tasks,
+                  sorting tasks. Mobile friendly design.
+                </p>
+                <a
+                  href="https://github.com/BayramovAnar/js-todo-list"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  >Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!--------------------------------------- PORTFOLIO SECTION END  ------------------------------------------>
+
+      <!--------------------------------------- CONTACT SECTION BEGIN  ------------------------------------------>
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in Touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+994 (51) 329 85 06</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email Me</h3>
+                <span class="contact__subtitle">abayramov12682@ada.edu.az</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input" />
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="0"
+                  rows="10"
+                  class="contact__input"
+                ></textarea>
+              </div>
+              <div>
+                <a href="#" class="button button--flex"
+                  >Send &nbsp<i class="uil uil-message button__icon"></i
+                ></a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!--------------------------------------- CONTACT SECTION END  ------------------------------------------>
+
+      <!--------------------------------------- FOOTER SECTION BEGIN  ------------------------------------------>
+      <footer class="footer">
+        <div class="footer__bg">
+          <div class="footer__container container grid">
+            <div>
+              <h1 class="footer__title">Anar Bayramov &copy</h1>
+            </div>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#services" class="footer__link">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="footer__link">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer__link">Contact</a>
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a
+                href="https://www.linkedin.com/in/anarbayramov1/"
+                target="_blank"
+                class="footer__social"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+              <a
+                href="https://github.com/BayramovAnar"
+                target="_blank"
+                class="footer__social"
+                ><i class="uil uil-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/melancholic_hedgehog/"
+                target="_blank"
+                class="footer__social"
+                ><i class="uil uil-instagram-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--------------------------------------- FOOTER SECTION END  ------------------------------------------>
+
+      <!--------------------------------------- SCROLL TO THE TOP SECTION BEGIN  ------------------------------------------>
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+      </a>
+      <!--------------------------------------- SCROLL TO THE TOP SECTION END  ------------------------------------------>
+    </main>
+    <script src="./script.js"></script>
+    <script src="./swiper-bundle.min.js"></script>
+  </body>
+</html>
